@@ -1,1 +1,1 @@
-Hi My Name is Manoj Nepal and I am currently learning Python and will be sharing and documenting my journey on Github.
+Hi My Name is Manoj Nepal and I am currently learning Python and will be sharing and documenting my journey on Github. I just made a readme file and pusshed to github .
