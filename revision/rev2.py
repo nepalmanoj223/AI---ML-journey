@@ -87,7 +87,7 @@
 
 # Given a list [1,2,3,4,5,6], separate odd and even numbers into two different lists using a loop.
 
-num =[1,2,3,4,5,6]
+num =[1,2,3,4,5,6,0,13,12]
 i=0
 newodd=[]
 neweven=[]
@@ -99,3 +99,11 @@ while i<len(num):
     i+=1
 print(neweven)
 print(newodd)
+
+def newrec(n):
+    if n==0:
+        return
+    newrec(n-1)
+    print(n)
+c=int(input("Enter the number you want to be printed till"))
+newrec(c)
